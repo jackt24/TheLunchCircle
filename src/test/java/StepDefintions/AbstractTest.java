@@ -14,7 +14,5 @@ public abstract class AbstractTest {
     }
 
     @AfterClass
-    static public void dropDriver(){
-//        baseClass.tearDown();
-    }
+    static public void dropDriver(){baseClass.tearDown();}
 }

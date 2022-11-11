@@ -8,8 +8,5 @@ public class commonSteps extends BaseClass {
 
 
     @Given("I navigate to the homepage")
-    public void i_navigate_to_the_homepage() {
-        // Write code here that turns the phrase above into concrete actions
-        driver.get("http://www.google.com");
-    }
+    public void i_navigate_to_the_homepage() { driver.get("http://www.thelunchcircle.com");}
 }
